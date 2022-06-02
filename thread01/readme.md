@@ -40,3 +40,7 @@ private synchronized void test(int amt){}
 
 #### Lock锁
 ReentrantLock、ReentrantReadWriteLock
+
+### JMM总结
+1.volatile可以解决可见性、有序性，但是不能解决原子性
+2.synchronize/Lock可以解决可见性，有序性，原子性
