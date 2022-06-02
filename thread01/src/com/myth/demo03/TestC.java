@@ -6,9 +6,10 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 原子性
  */
 public class TestC {
-    // 不能保证原子性
+    /**
+     * 不能保证原子性
+      */
     //static int num = 0;
-
     /**
      * AtomicInteger类，原子性Integer类，底层就是用了volatile+CAS来实现，保证了自增操作的原子性
      */
